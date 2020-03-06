@@ -1,0 +1,14 @@
+{
+  "websiteName": "GoAlert",
+  "websitePushID": "web.com.target.GoAlert",
+  "allowedDomains": [
+    "https://target.goalert.me",
+    "https://stage.target.goalert.me",
+    "https://dev.target.goalert.me",
+    "http://localhost:3030",
+    "https://frightening-zoo.surge.sh"
+  ],
+  "urlFormatString": "https://target.goalert.me",
+  "authenticationToken": "19f8dvnfj3eswa7floce31dabe",
+  "webServiceURL": "https://blooming-ocean-51906.herokuapp.com/push"
+}

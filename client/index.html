@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      this page should prompt user for permission to receveive push noties from
+      the push web service
+    </h1>
+
+    <button onclick="runScript()">click me</button>
+
+    <script>
+      function runScript() {
+        let websitePushID = "web.com.target.GoAlert";
+
+        let permissionData = window.safari.pushNotification.permission(
+          websitePushID
+        );
+
+        function checkRemotePermission(permissionData) {
+          console.log(permissionData);
+          if (permissionData.permission === "default") {
+            console.log("default, requesting permission...");
+            // This is a new web service URL and its validity is unknown.
+            window.safari.pushNotification.requestPermission(
+              "https://blooming-ocean-51906.herokuapp.com/push", // The web service URL.
+              websitePushID, // The Website Push ID.
+              {}, // Data that you choose to send to your server to help you identify the user.
+              checkRemotePermission // The callback function.
+            );
+          } else if (permissionData.permission === "denied") {
+            // The user said no.
+          } else if (permissionData.permission === "granted") {
+            // The web service URL is a valid push provider, and the user said yes.
+            // permissionData.deviceToken is now available to use.
+          }
+        }
+        checkRemotePermission(permissionData);
+      }
+    </script>
+  </body>
+</html>

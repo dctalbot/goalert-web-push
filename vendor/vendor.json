@@ -1,0 +1,119 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "/ppN8kcy0CPRbdjF2Z/ppLLYWh0=",
+			"path": "github.com/SherClockHolmes/webpush-go",
+			"revision": "7ed4780304f15dd5a2f5c9e316ce79e9f1c1b6d2",
+			"revisionTime": "2019-04-11T04:21:05Z"
+		},
+		{
+			"checksumSHA1": "P6u6fDWwSfRL2Bc6uhZ9kcoPsek=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "5e25c22bd5d6de03265bbe5462dcd162f85046f6",
+			"revisionTime": "2019-06-20T18:01:02Z"
+		},
+		{
+			"checksumSHA1": "oUtU1Z0YIhbjb+bfYSkzlim9FD4=",
+			"path": "github.com/gorilla/mux",
+			"revision": "49c01487a141b49f8ffe06277f3dca3ee80a55fa",
+			"revisionTime": "2019-11-21T17:05:00Z"
+		},
+		{
+			"checksumSHA1": "oQzD34LKR1bVWHa9shesKprcCnQ=",
+			"path": "github.com/sideshow/apns2",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "EHOwwdWPJGt1vNVeJxyRDRHBhl8=",
+			"path": "github.com/sideshow/apns2/certificate",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "nkQ/1JoIY4jh8XlI8LClfFVux9U=",
+			"path": "github.com/sideshow/apns2/token",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "ELSEW2KG0p3oua5lIxl1xW2oFBo=",
+			"path": "golang.org/x/crypto/hkdf",
+			"revision": "87dc89f01550277dc22b74ffcf4cd89fa2f40f4c",
+			"revisionTime": "2019-10-11T18:31:21Z"
+		},
+		{
+			"checksumSHA1": "ixXpRfdCdlwvjU2IT6SXM9lIHmA=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/crypto/pkcs12",
+			"path": "golang.org/x/crypto/pkcs12",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "iVJcif9M9uefvvqHCNR9VQrjc/s=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/crypto/pkcs12/internal/rc2",
+			"path": "golang.org/x/crypto/pkcs12/internal/rc2",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "Wl71V4Lh2iajiRnVAMPtd276vTg=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/net/http2",
+			"path": "golang.org/x/net/http2",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "4n0osCZJbirWKtbcyAg+Mb5PQ0k=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/net/http2/hpack",
+			"path": "golang.org/x/net/http2/hpack",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "VrzPJyWI6disCgYuVEQzkjqUsJk=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/net/idna",
+			"path": "golang.org/x/net/idna",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "3xyuaSNmClqG4YWC7g0isQIbUTc=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/net/lex/httplex",
+			"path": "golang.org/x/net/lex/httplex",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "faFDXp++cLjLBlvsr+izZ+go1WU=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/text/secure/bidirule",
+			"path": "golang.org/x/text/secure/bidirule",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/text/transform",
+			"path": "golang.org/x/text/transform",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "MRLtTu/vpd18le8/HPLxOdjO5RE=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/text/unicode/bidi",
+			"path": "golang.org/x/text/unicode/bidi",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		},
+		{
+			"checksumSHA1": "kKylzIrLEnH8NKyeVAL0dq5gjVQ=",
+			"origin": "github.com/sideshow/apns2/vendor/golang.org/x/text/unicode/norm",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "4ff223d8eb2f712655c60bb5a052a152e174f4c4",
+			"revisionTime": "2019-12-01T03:44:59Z"
+		}
+	],
+	"rootPath": "heroku"
+}
